@@ -220,15 +220,6 @@ body{
 	max-width: 100%;
 }
 
-.slider-text{
-	position: absolute;
-	color: #d0d0d0;
-	font-size: 35px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .slider-dots {
     text-align: center;
 }
