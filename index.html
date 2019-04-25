@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+<meta charset="utf-8">
+<title>Тестовое задание</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="middle-bg">
+<div class="container">
+	<div class="header">
+		<div class="header-item">
+			<img src="images/logo.jpg" alt="логотип">
+		</div>
+		<div class="header-item">
+			<div class="header-item-content">
+				<p><b>8-800-200-1-365</b></p>
+				<p>Обязательно ответим</p>
+			</div>
+		</div>
+		<div class="header-item">
+			<div class="header-item-content-right">
+				<p><b>Перезвоните мне</b></p>
+				<p>Форма обратной связи</p>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="menu">
+		<ul id="menu">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Продукты</a></li>
+				<li><a href="#">Поддержка</a></li>
+			<li>
+				<a href="#">О компании</a>
+				<ul class="sub-menu">
+					<li class="sub-menu-label"><span>О компании</span></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">История</a></li>
+					<li><a href="#">Сотрудники</a></li>
+					<li><a href="#">Вакансии</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="content-programs">
+		<div class="content-programs-item">
+			<a href="#" class="content-programs-item-link">
+				<img src="images/content-programs-pic1.jpg" alt="озеро">
+				<span>Программы</span>
+				<span>для СНТ</span>
+			</a>
+		</div>
+		<div class="content-programs-item"> 
+			<a href="#" class="content-programs-item-link">
+				<img src="images/content-programs-pic2.jpg" alt="лес">
+				<span>Программы</span>
+				<span>для ТСЖ</span>
+			</a>
+		</div>
+		<div class="content-programs-item">
+			<a href="#" class="content-programs-item-link">
+				<img src="images/content-programs-pic3.jpg" alt="река">
+				<span>Программы</span>
+				<span>для ТСН</span>
+			</a>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="content-middle">
+		<div class="content-middle-text">
+			<h1>Инфокрафт приветствует вас!</h1>
+			<p>Компания «Инфокрафт» специализируется на разработке программного обеспечения для предприятий ЖКХ.</p>
+			<p>Мы создаем прикладные решения на платформе «1С:Предприятие 8», программы для Microsoft Windows<br> 
+				и онлайн-сервисы, направленные на решения профессиональных задач наших клиентов.</p>
+		</div>
+		<div class="content-middle-slider">
+			<div class="slider-item">
+				<img src="images/slider-pic1.jpg" alt="1 картинка">
+				<div class="slider-text">Слайд 1 из 3</div>
+			</div>
+			<div class="slider-item">
+				<img src="images/slider-pic2.jpg" alt="2 картинка">
+				<div class="slider-text">Слайд 2 из 3</div>
+			</div>
+			<div class="slider-item">
+				<img src="images/slider-pic3.jpg" alt="3 картинка">
+				<div class="slider-text">Слайд 3 из 3</div>
+			</div>
+			<div class="slider-dots">
+				<span class="slider-dots-item" onclick="currentSlide(1)"></span> 
+				<span class="slider-dots-item" onclick="currentSlide(2)"></span> 
+				<span class="slider-dots-item" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+		<div class="content-middle-text">
+			<h1>Есть предложения?</h1>
+			<p>Компания «Инфокрафт» специализируется на разработке программного обеспечения для предприятий ЖКХ.</p>
+			<p>Мы создаем прикладные решения на платформе «1С:Предприятие 8», программы для Microsoft Windows<br>
+				и онлайн-сервисы, направленные на решения профессиональных задач наших клиентов.</p>
+		</div>
+	</div>
+	<div class="footer">
+		<hr>
+		<div class="footer-item">
+			<ul>
+				<li><a href="#">Карта сайта</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Обьявления</a></li>
+				<li><a href="#">Документы</a></li>
+			</ul>
+		</div>
+		<div class="footer-item">
+			<h1>Получите спецпредложение!</h1>
+			<p>Просто заполните форму и нажмите "Отправить".</p>
+			<form name="specialoffer" method="post" action="#">
+				<input class="specialoffer-field" type="text" size="20" placeholder="E-mail">
+				<input class="specialoffer-field" type="text" size="20" placeholder="Имя">
+				<input class="specialoffer-button" type="submit" value="Отправить">
+				</form>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+<script src="scripts/slider.js"></script>
+</html>
